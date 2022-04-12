@@ -1,0 +1,274 @@
+
+body ,html {
+	overflow-x: hidden;
+}
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200821/pngtree-pure-white-minimalist-background-wallpaper-image_396581.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  }
+.navbar ul{
+  list-style: none;
+  background: #bdle43;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+ display: block;
+ padding: 25px 20px;
+ text-transform: uppercase;
+ font-weight: bold;
+ font-family: arial;
+ text-align: center; 
+}
+.navbar a:hover{
+  background: #353640;
+
+}
+
+
+section{
+	width: 80%;
+	margin: 80px auto;
+}
+.title{
+	text-align: center;
+	font-size: 4vmin;
+	color: #49497e;
+}
+.row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+
+}
+.row .col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.events .row{
+	margin-top: 50px;
+}
+h4 {
+	font-size: 3vmin;
+	color: #484872;
+	margin: 20px auto;
+}
+p{
+	color: #7c7c7c;
+	padding: 0px 40px;
+}
+.event .ctn{
+	margin-top: 30px;
+}
+
+.explore {
+	width: 100%;
+	height: 100vh;
+	background-image: url('https://5.imimg.com/data5/KH/YB/GLADMIN-53205016/smart-phone-repair-training-course-service-500x500.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+
+}
+
+.explore-content{
+	width: 60%;
+	padding: 50px;
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.explore-content h1{
+  font-size: 7vmin;
+}
+.explore-content p{
+	color: rgb(221, 221, 221);
+}
+.explore-content .line{
+	margin-bottom: 50px;
+}
+
+.explore-content p{
+
+}
+.explore-content .ctn{
+	margin-top: 40px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.content-col{
+	width: 40%;
+}
+.image-col{
+	width: 60%;
+}
+.tours .row .col {
+	width: 50%;
+}
+.tours .image-gallery{
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+	max-width: 320px;
+	margin: 10px;
+}
+.content-col h1{
+	font-size: 7vmin;
+	color: #484872;
+}
+.content-col .line {
+  margin-left: -1px;
+}
+.content-col p{
+	padding: 0;
+	margin: 30px auto;
+}
+.content-col .ctn{
+	margin-left: 100px;
+}
+footer {
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+blink{
+	color: #1c87c9;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+ .mySlides {display:none;}

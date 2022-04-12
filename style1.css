@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Hk Grotesk Regular', serif;
+}
+
+.hero{
+	height: 130vh;
+	background-image: url('https://media.istockphoto.com/photos/abstract-background-with-black-wavy-stripes-abstract-cut-paper-soft-picture-id1298777114?b=1&k=20&m=1298777114&s=170667a&w=0&h=EomSXxg_r5bnKNsukEUbYWWydWjhs6RhFLg4-zWNzyg=');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+header {
+	width: 100%;
+	margin: auto;
+	padding: 2rem 0rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-toggle span {
+	font-size: 1.8rem;
+	color: #cad51c;
+}
+
+header ul{
+	display: flex;
+}
+
+header li{
+	margin: 0 1rem;
+}
+
+header a {
+	color: #fff;
+}
+.content{
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 3.5rem;
+}
+
+.image img{
+	 border: 1px; 
+  padding-left: 50px;
+}
+
+.title h1{
+	font-size: 5rem;
+}
+.description p{
+	 border: 1px; 
+  padding-left: 50px;
+  text-indent: 50px;
+line-height: 1.5em;
+}
+
